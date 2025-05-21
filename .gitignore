@@ -1,0 +1,59 @@
+# Virtual environment
+.venv/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution/build directories
+build/
+dist/
+*.egg-info/
+
+# IDE-specific files (VS Code)
+.vscode/
+!.vscode/settings.json  # Keep project-specific settings
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Operating system-specific files
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Log files
+*.log
+
+# Test-related files
+.pytest_cache/
+htmlcov/
+
+# Temporary/intermediate files from CalculiX
+*.sta
+*.dat
+*.cvg
+*.frd  # Ignoring results files unless needed
+
+# Temporary files from Gmsh
+*.msh~
+*.geo~
+
+# Common editor/backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Miscellaneous
+*.lock
+*.env
+.env/
